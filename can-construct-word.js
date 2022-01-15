@@ -1,3 +1,5 @@
+"use strict";
+
 /**takes in two strings, one word and one a series of letters. 
  * Compares the contents of the letters with the word 
  * to see if the word can be constructed from the given letter 
