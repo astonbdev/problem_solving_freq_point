@@ -7,12 +7,13 @@
 function twoArrayObject(keys, values) {
     let pairs = {};
 
-    for(let i = 0; i < keys.length; i++){
+    for (let i = 0; i < keys.length; i++) {
         console.log(`value at ${i}: ` + values[i]);
-        if(values[i] === undefined){
+        if (values[i] === undefined) {
             pairs[keys[i]] = null;
-        }
-        else{
+
+        } else {
+
             pairs[keys[i]] = values[i];
         }
     }
